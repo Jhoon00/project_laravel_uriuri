@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <span class="pl-5 mr-2 font-semibold text-xl text-gray-800 leading-tight">
-            {{ $post->title }}
+            👋{{ $post->user->name }}
         </span>
         <span class="font-semibold text-sm text-green-600 leading-tight">
             {{ __('마음에 드십니까?') }}
